@@ -8,3 +8,5 @@ backup_files() {
     cp -r "$source_dir"/* "$dest_dir"
     echo "Backup of $source_dir completed."
 }
+#This script performs backup operations.
+#Function to backup files from source to destination directory.
